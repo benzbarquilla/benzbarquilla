@@ -1,0 +1,117 @@
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-secondary);
+}
+
+/* header */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.nav-container {
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 950px;
+}
+.nav-container > a {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  margin-left: auto;
+  margin-right: 2rem;
+}
+
+/* main */
+.main-container {
+  margin: 0 auto;
+  max-width: 900px;
+  margin-top: 50px;
+}
+.name-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    /* Sharp closer shadow */ 0 10px 15px -3px rgba(0, 0, 0, 0.05); /* Warmer ambient shadow */
+}
+
+.profile-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+.profile-img > img:hover {
+  transform: scale(1.08);
+}
+
+.name > p {
+  font-family: var(--font-main);
+  font-weight: 700;
+  font-size: 2rem;
+}
+.socials {
+  display: flex;
+  gap: 0.5rem;
+}
+.github-icon {
+  display: flex;
+  height: 22px;
+  transition: all 0.3s ease-in-out;
+}
+.github-icon:hover {
+  transform: scale(1.08);
+}
+.email-icon {
+  display: flex;
+  height: 22px;
+  transition: all 0.3s ease-in-out;
+}
+.email-icon:hover {
+  transform: scale(1.08);
+}
+.about-section {
+  margin-top: 2rem;
+}
+
+.about-section > p {
+  text-align: justify;
+}
+
+.btn-primary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(38, 33, 39, 0.3);
+}
+.btn-primary:active {
+  transform: translateY(0);
+}
