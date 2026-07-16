@@ -38,25 +38,11 @@
         </ul>
 
         <div class="nav-actions">
-          <button id="theme-toggle" aria-label="Toggle dark mode">
-            <!-- swap icon via JS: sun/moon -->
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-moon-icon lucide-moon"
-            >
-              <path
-                d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"
-              />
-            </svg>
-          </button>
+          <button
+            class="btn-mode"
+            id="theme-toggle"
+            aria-label="Toggle dark mode"
+          ></button>
         </div>
       </nav>
     </header>
@@ -68,7 +54,7 @@
         <!-- name + photo -->
         <div class="name-section">
           <div class="profile-img">
-            <img src="assets/images/profile/profile.png" alt="" />
+            <img src="assets/images/profile/profile.png" alt="Benz Barquilla" />
           </div>
           <div class="name">
             <p>Benz Barquilla</p>
@@ -76,6 +62,7 @@
               <div class="github-icon">
                 <svg
                   role="img"
+                  fill="currentColor"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -105,6 +92,7 @@
             </div>
           </div>
         </div>
+
         <!-- description -->
         <div class="about-section">
           <p>
@@ -119,6 +107,29 @@
           </p>
           <button class="btn-primary">View Resume</button>
         </div>
+
+        <!-- projects -->
+        <div class="projects-section" id="projects">
+          <p>Projects</p>
+          <div class="projects-grid" id="projects-grid">
+            <!-- <div class="card">
+              <div class="card__shine"></div>
+              <div class="card__glow"></div>
+              <div class="card__content">
+                <div style="--bg-color: #a78bfa" class="card__image"></div>
+                <div class="card__text">
+                  <p class="card__title">Premium Design</p>
+                  <p class="card__description">
+                    Hover to reveal stunning effects
+                  </p>
+                </div>
+                <div class="card__footer">
+                  <div class="card__price">$49.99</div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
       </div>
     </main>
 
@@ -128,6 +139,7 @@
       <p class="footer-name">Your Name · City, Philippines</p>
     </footer> -->
 
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/mode.js"></script>
+    <script src="assets/js/project.js"></script>
   </body>
 </html>
