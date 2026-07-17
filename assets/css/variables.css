@@ -1,6 +1,7 @@
 :root {
   --color-bg: #ffffff;
   --color-text: #0a0a0a;
+  --color-border: #e0e0e0;
   --font-main: "Space Grotesk", sans-serif;
   --font-secondary: "Inter", sans-serif;
 }
@@ -8,4 +9,5 @@
 [data-theme="dark"] {
   --color-bg: #0a0a0a;
   --color-text: #f5f5f5;
+  --color-border: #2a2a2a;
 }
