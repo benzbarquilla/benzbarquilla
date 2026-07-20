@@ -1,7 +1,7 @@
 body {
   background-color: var(--color-bg);
   color: var(--color-text);
-  font-family: var(--font-secondary);
+  font-family: var(--font-main);
 }
 
 /* header */
@@ -19,18 +19,18 @@ body {
   margin: 0 auto;
   max-width: 950px;
 }
-.nav-container > a {
-  font-weight: 700;
-  font-size: 1.25rem;
-}
 .nav-links {
   display: flex;
   gap: 1rem;
   margin-left: auto;
   margin-right: 2rem;
 }
+.nav-links > li > a {
+  font-size: var(--font-size-main);
+  color: #777777;
+}
 .nav-links > li > a:hover {
-  color: #959aff;
+  color: var(--color-text);
 }
 .btn-mode {
   display: flex;
@@ -85,9 +85,8 @@ body {
   gap: 0.5rem;
 }
 .name > p {
-  font-family: var(--font-main);
-  font-weight: bold;
-  font-size: 2.5rem;
+  font-weight: 600;
+  font-size: 2.6rem;
 }
 .socials {
   display: flex;
@@ -107,6 +106,7 @@ body {
   text-align: justify;
   margin-bottom: 0.5rem;
   color: #777777;
+  font-size: var(--font-size-main);
 }
 .about-section > p:last-child {
   margin-bottom: 0;
@@ -140,7 +140,6 @@ body {
   padding-top: 3rem;
 }
 .projects-section > p {
-  font-family: var(--font-main);
   font-size: 1.5rem;
 }
 .projects-grid {
@@ -197,14 +196,14 @@ body {
 }
 .card__title {
   color: var(--color-text);
-  font-size: 1.1em;
+  font-size: var(--font-size-main);
   margin: 0;
   font-weight: 700;
   transition: all 0.3s ease;
 }
 .card__description {
   color: var(--color-text);
-  font-size: 0.75em;
+  font-size: var(--font-size-body);
   margin: 0;
   opacity: 0.7;
   transition: all 0.3s ease;
@@ -256,7 +255,6 @@ body {
 
 /* projects */
 .experience-section > p {
-  font-family: var(--font-main);
   font-size: 1.5rem;
 }
 table {
@@ -278,11 +276,15 @@ tr:hover {
 }
 .date {
   color: #777777;
-  font-size: 12px;
+  font-size: var(--font-size-body);
   font-weight: 400;
 }
+.role {
+  font-size: var(--font-size-main);
+  font-weight: 600;
+}
 .company {
-  font-size: 12px;
+  font-size: var(--font-size-body);
   color: #777777;
   text-align: end;
   font-weight: 400;
@@ -294,9 +296,8 @@ tr:hover {
   margin-bottom: 2.5rem;
 }
 .skills-section > p {
-  font-family: var(--font-main);
   font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .marquee__track {
@@ -311,7 +312,7 @@ tr:hover {
   align-items: center;
   gap: 0.5rem;
   padding: 0.2rem 0.2rem;
-  font-size: 12px;
+  font-size: var(--font-size-body);
   border-radius: 3px;
   /* border: 1px solid var(--color-border); */
   white-space: nowrap;
@@ -336,7 +337,6 @@ tr:hover {
   margin-bottom: 5rem;
 }
 .education-section > p {
-  font-family: var(--font-main);
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
@@ -345,15 +345,12 @@ tr:hover {
   align-items: center;
   gap: 7rem;
 }
-.year {
+.year,
+.school {
   color: #777777;
-  font-size: 12px;
+  font-size: var(--font-size-body);
 }
 .course {
-  font-weight: bold;
-  font-size: 16px;
-}
-.school {
-  font-size: 13px;
-  color: #777777;
+  font-weight: 600;
+  font-size: var(--font-size-main);
 }
