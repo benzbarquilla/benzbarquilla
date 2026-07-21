@@ -61,7 +61,7 @@ body {
   width: 100%;
   min-width: 250px;
   aspect-ratio: 1/1;
-  border-radius: 5px;
+  border-radius: 16px;
   overflow: hidden;
   box-shadow:
     0 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -112,7 +112,8 @@ body {
   margin-bottom: 0;
 }
 
-.btn-primary {
+/* unused */
+/* .btn-primary {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -131,7 +132,7 @@ body {
 }
 .btn-primary:active {
   transform: translateY(0);
-}
+} */
 
 /* projects */
 .projects-section {
@@ -139,7 +140,7 @@ body {
   margin-bottom: 3rem;
 }
 .projects-section > p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 .projects-grid {
   display: flex;
@@ -155,7 +156,7 @@ body {
 
   max-width: 415px;
   margin-top: 0.5rem;
-  border-radius: 5px;
+  border-radius: 16px;
   position: relative;
   overflow: hidden;
   transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
@@ -185,7 +186,7 @@ body {
 .card__image {
   width: 100%;
   aspect-ratio: 16/9;
-  border-radius: 5px;
+  border-radius: 16px;
   transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .card__text {
@@ -257,7 +258,7 @@ body {
   margin-bottom: 3rem;
 }
 .experience-section > p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 table {
   border-collapse: collapse;
@@ -299,7 +300,7 @@ tr:hover {
   margin-bottom: 3rem;
 }
 .skills-section > p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin-bottom: 1rem;
 }
 
@@ -316,8 +317,6 @@ tr:hover {
   gap: 0.5rem;
   padding: 0.2rem 0.2rem;
   font-size: var(--font-size-body);
-  border-radius: 3px;
-  /* border: 1px solid var(--color-border); */
   white-space: nowrap;
 }
 
@@ -340,7 +339,7 @@ tr:hover {
   margin-bottom: 3rem;
 }
 .education-section > p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin-bottom: 0.5rem;
 }
 .campus {
@@ -360,10 +359,10 @@ tr:hover {
 
 /* certificates */
 .certificates-section {
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 .certificates-section > p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin-bottom: 0.5rem;
 }
 .cert-grid {
@@ -381,7 +380,7 @@ tr:hover {
   max-width: 200px;
   min-height: 180px;
   padding: 15px 5px 15px 5px;
-  border-radius: 5px;
+  border-radius: 16px;
   transition: transform 0.3s ease-in-out;
   box-shadow: var(--card-shadow);
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -422,4 +421,46 @@ tr:hover {
 }
 .verify-btn:hover {
   text-decoration: underline;
+}
+
+/* contacts */
+.contact-section {
+  margin-bottom: 5rem;
+}
+.contact-section > p {
+  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
+}
+.container {
+  display: flex;
+  gap: 2rem;
+}
+.description > p {
+  text-align: justify;
+  color: #777777;
+  font-size: var(--font-size-main);
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.social-card {
+  display: flex;
+  width: 400px;
+  gap: 1rem;
+}
+.icon-container {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+.link {
+  display: flex;
+  align-items: center;
 }
