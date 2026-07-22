@@ -1,6 +1,8 @@
 :root {
   --color-bg: #ffffff;
   --color-text: #0a0a0a;
+  --icon-bg: #f2f2f2;
+  --button-text: #f2f2f2;
   --color-border: #e0e0e0;
   --font-size-main: 1rem;
   --font-size-body: 0.7rem;
@@ -9,6 +11,8 @@
 /* Dark mode */
 [data-theme="dark"] {
   --color-bg: #0a0a0a;
+  --icon-bg: none;
+  --button-text: #0a0a0a;
   --color-text: #f5f5f5;
   --color-border: #2a2a2a;
 }
