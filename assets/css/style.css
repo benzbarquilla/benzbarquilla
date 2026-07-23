@@ -632,19 +632,9 @@ table {
 
   /* footer */
   .footer {
-    margin: 0 auto;
-    max-width: 850px;
     padding: 0px 20px;
-    margin-bottom: 2rem;
-
     p {
-      color: var(--color-text);
       font-size: var(--font-size-body);
-      font-weight: bold;
-    }
-    span {
-      color: var(--color-text-muted);
-      font-weight: 300;
     }
   }
 }
