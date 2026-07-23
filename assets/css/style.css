@@ -621,7 +621,6 @@ table {
     font-size: var(--font-size-body);
   }
   .resume-link {
-    padding: 10px 20px;
     border-radius: 10px;
     width: 150px;
     font-size: var(--font-size-body);
