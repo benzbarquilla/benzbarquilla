@@ -634,12 +634,7 @@ table {
   .footer {
     padding: 0px 20px;
     p {
-      color: var(--color-text);
       font-size: var(--font-size-body);
-    }
-    span {
-      color: var(--color-text-muted);
-      font-weight: 300;
     }
   }
 }
