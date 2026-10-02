@@ -1,6 +1,6 @@
-# Hi, I'm Benz 👋
+# Hi there 👋
 
-IT graduate based in the Philippines, interested in building websites, working with digital tools, and continuously learning new skills.
+I'm Benz, IT graduate based in the Philippines, interested in building websites, working with digital tools, and continuously learning new skills.
 
 Currently Working On
 
