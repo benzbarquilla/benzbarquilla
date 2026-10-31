@@ -7,6 +7,7 @@ Currently Working On
 - Learning social media management and virtual assistance.
 
 Outside the IDE
+
 Gaming, movies, and the outdoors. Always up for learning a new tool.
 
 
